@@ -10,7 +10,7 @@ export default function Winners() {
 
   // this will run, when the component is first initialized
   useEffect(() => {
-    getData(); // call function that will fetch 
+    getData(); // call function that will fetch data from DB 
   }, []);
 
 
