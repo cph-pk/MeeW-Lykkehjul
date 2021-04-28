@@ -36,3 +36,10 @@ ul.header li a:hover:not(.active) {
   width: 634px !important; 
   max-width: 634px !important;
 } 
+
+.modal-header {
+  border-bottom: none !important;
+}
+.modal-title {
+  font-size: 4em;
+}

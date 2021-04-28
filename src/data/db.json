@@ -1,0 +1,34 @@
+{
+  "winners": [
+    {
+      "id": 1,
+      "user": "cookie or session",
+      "price": "won a voucher",
+      "date": "2021-04-25T13:01:34.425Z"
+    },
+    {
+      "id": 2,
+      "user": "cookie or session",
+      "price": "better luck next time",
+      "date": "2021-04-25T14:13:02.834Z"
+    },
+    {
+      "user": "pgs14rvpp1k",
+      "price": "won a voucher",
+      "date": "2021-04-28T11:28:02.420Z",
+      "id": 3
+    },
+    {
+      "user": "uedxzk3eeb",
+      "price": "better luck next time",
+      "date": "2021-04-28T12:25:05.876Z",
+      "id": 4
+    },
+    {
+      "user": "uedxzk3eeb",
+      "price": "better luck next time",
+      "date": "2021-04-28T12:41:48.973Z",
+      "id": 5
+    }
+  ]
+}
