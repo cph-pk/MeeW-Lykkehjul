@@ -27,13 +27,16 @@ export default function Home() {
             Launch demo wheel
           </Button>
 
-          <Modal contentClassName="modal" show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>Lykkehjul</Modal.Title>
+          <Modal show={show} onHide={handleClose}>
+            <Modal.Header>
+              <Modal.Title><div className="d-flex justify-content-center">Lykkehjul</div></Modal.Title>
             </Modal.Header>
-            <Modal.Body centered>
-              Woohoo, you're reading this text in a modal!
-              <div>
+            <Modal.Body>
+              <div className="d-flex justify-content-center">
+
+              Woohoo, prøv lykkehjulet og se om du er heldig!
+              </div>
+              <div className="mt-5">
                 <Wheel />
 
               </div>
