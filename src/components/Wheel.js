@@ -9,14 +9,14 @@ sessionStorage.setItem('user',userName); // set session for user
 
 function App() {
   const segments = [
-    'better luck next time',
-    'won 70',
-    'won 10',
-    'better luck next time',
-    'won 2',
-    'won uber pass',
-    'better luck next time',
-    'won a voucher'
+    'bedre held næste gang',
+    'vundet 50 kr.',
+    'vundet 100 kr.',
+    'bedre held næste gang',
+    'vundet 200 kr.',
+    'vundet fri levering',
+    'bedre held næste gang',
+    'vundet en T-Shirt'
   ];
   const segColors = [
     '#EE4040',
