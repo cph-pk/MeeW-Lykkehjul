@@ -29,9 +29,9 @@ export default function Home() {
 
           <Modal contentClassName="modal" show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>Modal heading</Modal.Title>
+              <Modal.Title>Lykkehjul</Modal.Title>
             </Modal.Header>
-            <Modal.Body>
+            <Modal.Body centered>
               Woohoo, you're reading this text in a modal!
               <div>
                 <Wheel />
