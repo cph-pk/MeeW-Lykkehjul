@@ -27,7 +27,7 @@ React-wheel-of-prizes v. 1.0.8
 Moment v. 2.29.1
 
 
-#### Wheel of fortune api
+### Wheel of fortune api
 
 |Properties|default value|Optional|
 |---|---|---|
