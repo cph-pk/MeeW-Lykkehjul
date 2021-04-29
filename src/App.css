@@ -38,6 +38,7 @@ ul.header li a:hover:not(.active) {
 } 
 
 .modal-header {
+  display: block;
   border-bottom: none !important;
 }
 .modal-title {

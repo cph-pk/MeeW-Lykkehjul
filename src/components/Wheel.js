@@ -5,20 +5,20 @@ import 'react-wheel-of-prizes/dist/index.css'
 const URL = 'http://localhost:8000/winners'; // Url from dummy json-server
 
 let userName = Math.random().toString(36).substring(2); // create random user name
-sessionStorage.setItem('user',userName); // set session for user
+sessionStorage.setItem('user', userName); // set session for user
 
 function App() {
-  const segments = [
-    'better luck next time',
-    'won 70',
-    'won 10',
-    'better luck next time',
-    'won 2',
-    'won uber pass',
-    'better luck next time',
-    'won a voucher'
+  const segments = [ // array of segments in wheel with price-text
+    'bedre held næste gang',
+    'vundet 50 kr.',
+    'vundet 100 kr.',
+    'bedre held næste gang',
+    'vundet 200 kr.',
+    'vundet fri levering',
+    'bedre held næste gang',
+    'vundet en T-Shirt'
   ];
-  const segColors = [
+  const segColors = [ // array of colors in segments (same number as segments)
     '#EE4040',
     '#F0CF50',
     '#815CD1',
@@ -29,7 +29,8 @@ function App() {
     '#FF9000'
   ];
 
-console.log(userName)
+  console.log(userName)
+
   const onFinished = async (winner) => {
 
     const newWinner = {

@@ -3,10 +3,10 @@ import Wheel from "./Wheel";
 import { Button, Container, Row, Col, Modal } from 'react-bootstrap';
 
 export default function Home() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false); // declare a state variable for modal, and set it to false
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false); // function that handles close modal, is set to false
+  const handleShow = () => setShow(true); // function that handles show modal, is set to true
 
 
 
