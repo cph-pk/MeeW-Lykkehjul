@@ -5,7 +5,7 @@
 - Type: `npm install` to get the npm packages.
 - Type: `npm install -g json-server` to install a light json server that we need for this projeckt
 - Type: `code .` in terminal to open project in Visual Code or use a IDE for React of your own choice.
-- Open a new terminal in the root of project and start server by typing this `json-server --watch src/data/db.json --port 8000`. 
+- Open a new terminal in the root of project and start server by typing this<br/> `json-server --watch src/data/db.json --port 8000`. 
 - To test the server go to `http://localhost:8000/winners`
 - Now use the first terminal and type: `npm start`
 - You should now be up and running 
