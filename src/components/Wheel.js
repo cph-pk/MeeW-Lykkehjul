@@ -19,14 +19,14 @@ function App() {
     'vundet en T-Shirt'
   ];
   const segColors = [ // array of colors in segments (same number as segments)
-    '#EE4040',
+    '#FF8000',
     '#F0CF50',
-    '#815CD1',
-    '#3DA5E0',
-    '#34A24F',
-    '#F9AA1F',
-    '#EC3F3F',
-    '#FF9000'
+    '#4CA350',
+    '#008080',
+    '#0000FF',
+    '#501FC9',
+    '#800080',
+    '#FF0000'
   ];
 
   console.log(userName)
@@ -56,7 +56,7 @@ function App() {
     <WheelComponent
       segments={segments}
       segColors={segColors}
-      //winningSegment='won 10'
+      //winningSegment='vundet 50 kr.' 
       onFinished={(winner) => onFinished(winner)}
       primaryColor='#444'
       contrastColor='white'

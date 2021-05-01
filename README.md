@@ -1,5 +1,5 @@
 # MeeW-Lykkehjul 
-### How to run projeckt
+## How to run projeckt
 - Clone or download this projeckt.
 - Open a terminal (Bash) in the root of the project.
 - Type: `npm install` to get the npm packages.
@@ -9,26 +9,22 @@
 - To test the server go to `http://localhost:8000/winners`
 - Now use the first terminal and type: `npm start`
 - You should now be up and running 
-### Tecknology used in project
-Here is the different tecknologies used in ths projeckt:
+## Tecknology used in project
 
-React v. 16.0.0
+<dl>
+<dt>Here is the different tecknologies and versions used in this projeckt</dt>
+<dd>React v. 16.0.0</dd>
+<dd>React-dom v. 16.0.0</dd>
+<dd>React-router-dom v. 5.2.0</dd>
+<dd>react-bootstrap v. 1.5.2</dd>
+<dd>Bootstrap v. 4.6.0</dd>
+<dd>React-wheel-of-prizes v. 1.0.8</dd>
+<dd>Moment v. 2.29.1</dd>
+</dl>
 
-React-dom v. 16.0.0
-
-React-router-dom v. 5.2.0
-
-react-bootstrap v. 1.5.2
-
-Bootstrap v. 4.6.0
-
-React-wheel-of-prizes v. 1.0.8
-
-Moment v. 2.29.1
-
-
-### Wheel of fortune api
-
+## Wheel of fortune api
+This component is fully configurable. The properties `segments` and `segColor` are compulsory while the rest is optional.<br>
+Wheel of fortune will run only once by default but if you want to run it more than once then you need to pass `isOnlyOnce={false}`
 |Properties|default value|Optional|
 |---|---|---|
 |segments 	|NA 	|No|
@@ -42,7 +38,8 @@ Moment v. 2.29.1
 |size|NA|Yes|
 |upDuration| 	100| 	Yes|
 |downDuration| 	1000| 	Yes|
-
+## Usage
+Here you can pass your own array of segments in wheel with price-text
 
 ```javascript
 const segments = [ 
@@ -56,7 +53,7 @@ const segments = [
     'vundet en T-Shirt'
   ]
 ```
-
+Here you can pass your own array of segmentscolors (same number as segments)
 ```javascript
 const segColors = [
     '#EE4040',
