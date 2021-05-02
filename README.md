@@ -20,6 +20,7 @@
 <dd>Bootstrap v. 4.6.0</dd>
 <dd>React-wheel-of-prizes v. 1.0.8</dd>
 <dd>Moment v. 2.29.1</dd>
+<dd>json-server v. 0.16.3</dd>
 </dl>
 
 ## Wheel of fortune api
