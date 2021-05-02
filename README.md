@@ -67,3 +67,5 @@ const segColors = [
     '#FF9000'
   ]
 ```
+## Docs
+Her er [link](https://github.com/cph-pk/MeeW-Lykkehjul/tree/develop/docs "Dokumenter") til diverse dokumenter for projektet.

@@ -29,25 +29,25 @@ function App() {
     '#FF0000'
   ];
 
-  console.log(userName)
+  // console.log(userName)
 
   const onFinished = async (winner) => {
 
-    const newWinner = {
-      user: sessionStorage.getItem('user'),
-      price: winner,
-      date: new Date()
+    const newWinner = { // create new winner object
+      user: sessionStorage.getItem('user'), // get session from user and set user property
+      price: winner, // set price property with the winner parameter
+      date: new Date() // set date property with a new date-timestamp
     }
 
-    await fetch(URL, {
+    await fetch(URL, { // here we POST the newWinner object
       method: 'POST',
-      body: JSON.stringify(newWinner),
+      body: JSON.stringify(newWinner), 
       headers: { 'content-Type': 'application/json' }
     })
 
 
-    console.log(winner)
-    console.log(JSON.stringify(newWinner))
+    // console.log(winner)
+    // console.log(JSON.stringify(newWinner))
   }
 
 
@@ -61,7 +61,7 @@ function App() {
       primaryColor='#444'
       contrastColor='white'
       buttonText='Spin'
-      isOnlyOnce={true}
+      isOnlyOnce={true} // use false if you want the wheel to turn more than once
       size={290}
       upDuration={500}
       downDuration={33}
